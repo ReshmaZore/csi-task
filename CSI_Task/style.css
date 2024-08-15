@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    height: 36px;
+    background-color: black;
+    color: black;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {
+    height: 30px;
+    width: 120px;
+    transition: transform 0.3s ease, filter 0.3s ease; 
+}
+.img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2); 
+}
+a{
+    cursor: pointer;
+}
+.vertical-line {
+    height: 30px; 
+    width: 1px; 
+    background-color: #fff; 
+    margin-left: 15px; 
+    margin-right: 15px; 
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    transition: transform 0.3s ease, filter 0.3s ease; 
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+li a {
+    color: #fff;
+    font-size: 18px;
+}
+li a:hover {
+    color: rgb(199, 32, 199); 
+}
+button{
+    background-color: rgba(202, 50, 253, 0.997); 
+    color: #fff;
+    margin: 4px 2px;
+    width:150px;
+    padding: 4px 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.btn-access {
+    background-color: rgb(193, 40, 193); 
+    color: #fff;
+    margin: 3px 2px;
+    width:200px;
+    padding: 4px 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 13px;
+    font-weight: 500;
+}
+.button:hover, .btn-access:hover {
+    background-color: rgb(150, 25, 150); 
+    transform: scale(1.05); 
+}
+.background {
+    text-align: center;
+}
+
+.background-text {
+    align-content: center;
+    top: 850vh;
+    color: #fff;
+    margin-top: 260px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-inline: 5px;
+}
+
+.background-text p {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 2px;
+}
